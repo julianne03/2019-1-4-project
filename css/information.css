@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'NIXGONL-Vb';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/NIXGONL-Vb.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: '양진체';
+    src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+text {
+    font-family: "Black Han Sans";
+    text-align: left;
+}
+
+text1 {
+    font-family: "Black Han Sans";
+    text-align: right;
+}
+
+table {
+    border: none;
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+tr,
+td {
+    border: 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: "양진체";
+}
+
+div {
+    display: inline-block;
+}
+body {
+background-color: rgb(255, 255, 255);
+}
+b {
+font-size: 40px; 
+font-family: 'NIXGONL-Vb'; 
+background-color: rgb(243, 238, 81);  
+}

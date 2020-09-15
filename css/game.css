@@ -1,0 +1,23 @@
+@font-face {
+    font-family: '양진체';
+    src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+font-family: 'NIXGONL-Vb';
+src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/NIXGONL-Vb.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+text {
+font-family: 'NIXGONL-Vb';
+font-size: 50px;
+}
+table td{
+font-family: '양진체';
+font-size: 25px;
+border:0;
+padding: 10px;
+text-align: center;
+}

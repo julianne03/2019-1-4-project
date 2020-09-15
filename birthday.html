@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>생일 맞추기</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="css/birthday.css">
+    <script src="js/birthday.js"></script>
+    <center><text>생일 맞추기 게임</text><br><br>
+        <div class="content">
+            이 게임은 우리반 학생들의 생일을 맞추는 게임입니다.<br>
+            추측 횟수가 월은 5번,일은 10번이 넘어 갈 경우 실패입니다!!
+        </div><br><br>
+        <form>
+            <font color="blue">월</font> 입력 : <input type="text" id="user" size=5>
+            <input type="button" value="확인" onclick="guess()" class="button"><br><br>
+            추측횟수 : <input type="text" id="guessnum" size=5>&nbsp;&nbsp;
+            힌트 : <input type="text" id="hint" size=10><br><br><br>
+            <font color="blue">일</font> 입력 : <input type="text" id="userday" size=5>
+            <input type="button" value="확인" onclick="guessday()" class="button"><br><br>
+            추측횟수 : <input type="text" id="guessdaynum" size=5>&nbsp;&nbsp;
+            힌트 : <input type="text" id="hintday" size=10>
+
+        </form>
+        <br><br><br>
+        <input type="button" value="게임 다시 고르기" onclick="location.href='game.html'" class="button">&nbsp;&nbsp;&nbsp;
+        <input type="button" value="홈" onclick="location.href='bottom.html'" class="button">
+    </center>
+</body>
+
+</html>

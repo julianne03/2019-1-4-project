@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>마니또 게임</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="css/manitoo.css">
+    <script src="js/manitoo.js"></script>
+    <center><text>마니또(익명 편지함) 게임</text><br><br>
+        <div class="content">
+            이 게임은 친구들에게 평소에 하지 못했던 말들을 써보는 게임입니다!!<br>
+            사진을 클릭하면 친구들은 랜덤으로 한 명씩 추첨됩니다!!<br>
+            선택된 친구에게 편지를 써보세요!!</div><br><br>
+        <img src="image/person.png" width=200 height=200 onclick="changeImage()" name=Image><br><br><br>
+        <div class="name" id="name"></div><br><br>
+        <textarea style="resize: none" rows=5 cols=40 id="textarea"></textarea><br><br>
+        <input type="button" value="전송" class="button" onclick="submit()">&nbsp;&nbsp;&nbsp;
+        <input type="button" value="게임 다시 고르기" onclick="location.href='game.html'" class="button">&nbsp;&nbsp;&nbsp;
+        <input type="button" value="홈" onclick="location.href='bottom.html'" class="button">
+    </center>
+</body>
+
+</html>

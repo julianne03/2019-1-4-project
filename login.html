@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/login.js"></script>
+    <center><text>우리반 친구 체크</text></center>
+    <form class="login">
+        <center>
+            이름 : <input type="text" id=name size=8><br><br>
+            학번 : <input type="text" id=hakbun size=8><br><br>
+            생일 : <input type="text" id=birthday size=8><br><br>
+            자신이 생각하는 자신의 별명 : <input type="text" id=nickname size=8><br><br>
+            미림 이메일 : <input type="text" id=email size=25><br><br>
+            전화번호(-없이 입력) : <input type="text" id=phone size=13><br><br>
+            <input type="submit" value="확인"
+                onclick="checkEmpty(document.getElementById('name','hakbun','birthday','email'))" class="button"><br>
+        </center>
+    </form>
+
+</body>
+
+</html>

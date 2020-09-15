@@ -1,0 +1,40 @@
+body {
+    font-family: 'NIXGONL-Vb';
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'NIXGONL-Vb';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/NIXGONL-Vb.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+text {
+    font-family: 'NIXGONL-Vb'; 
+    font-size: 50px;
+    font-weight: bold;
+    background-color: rgb(164, 253, 113);
+}
+.content {
+    font-family: 'NIXGONL-Vb'; 
+    font-size: 25px;
+    text-align: center;
+    border: 3px solid rgb(79, 228, 163);
+    display: inline-block;
+    width:50%;
+    padding: 20px;
+}
+.button {
+    background-color: rgb(170, 226, 40);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-family: 'NIXGONL-Vb';
+    font-size: 16px;
+    margin: 4px 2px;
+    color:black;
+    cursor: pointer;
+}

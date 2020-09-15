@@ -1,0 +1,24 @@
+.text {
+           
+    border: none;
+    font-size: 20px;
+    font-weight:bold;
+    color:rgb(255, 217, 0);
+    text-decoration :none;
+    font-family: sans-serif;
+    text-shadow: 2px 0px 0px rgb(153, 77, 26); 
+    }
+    .s1 {
+    text-decoration :none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 5px 0px 0px black; 
+    }
+    a:hover {
+        color:antiquewhite;
+        overflow: hidden;
+    }
+    body {
+        overflow: hidden;
+    }

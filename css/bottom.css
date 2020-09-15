@@ -1,0 +1,38 @@
+html 
+        {
+            scroll-behavior: smooth;
+        }
+        @font-face {
+            font-family: 'NIXGONL-Vb';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/NIXGONL-Vb.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        * {
+            margin: 0;
+            padding: 5px;
+        }
+
+        #countdown
+         {
+            display: inline;
+            color: blue;
+            font-weight: bold;
+            font-family: 'NIXGONL-Vb';
+            font-size: 30px;
+            padding: 0;
+            margin: 0;
+        }
+        text {
+            font-family: 'NIXGONL-Vb';
+            font-size: 30px;
+        }
+        .homepage {
+            font-family: 'NIXGONL-Vb';
+            font-size: 20px; 
+            font-weight: bold; 
+            background-color: rgb(243, 228, 92);
+            position: relative;
+            text-align:center;
+        }

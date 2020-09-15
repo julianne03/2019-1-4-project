@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'NIXGONL-Vb';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/NIXGONL-Vb.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.login {
+    font-family: 'NIXGONL-Vb';
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+}
+text {
+    font-family: 'NIXGONL-Vb';
+    font-size: 50px;
+    font-weight: bold;
+    background-color: rgb(243, 228, 92);
+}
+.button {
+    background-color: rgb(170, 226, 40);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-family: 'NIXGONL-Vb';
+    font-size: 16px;
+    margin: 4px 2px;
+    color: black;
+    cursor: pointer;
+}
