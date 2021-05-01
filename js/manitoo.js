@@ -1,5 +1,5 @@
 function changeImage() {
-    x = parseInt(Math.random() * 18 + 1);
+    x = parseInt(Math.random() * 18);
 
     Imgsrc = `image/${x+1}.jpg`;
     document.Image.src = Imgsrc;
